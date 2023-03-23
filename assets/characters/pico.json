@@ -9,51 +9,51 @@
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "blue idle"
+			"name": "blue idle normal"
 		},
 		{
 			"offsets": [
-				-45,
+				-65,
 				-221
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "blue down"
+			"name": "normal blue down"
 		},
 		{
 			"offsets": [
-				64,
-				-206
+				-2,
+				-193
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "blue up"
+			"name": "normal blue up"
 		},
 		{
 			"offsets": [
-				-102,
-				-235
+				-60,
+				-231
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "blue left"
+			"name": "normal blue left"
 		},
 		{
 			"offsets": [
-				75,
-				-238
+				-13,
+				-241
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "blue right"
+			"name": "normal blue right"
 		}
 	],
 	"no_antialiasing": false,
