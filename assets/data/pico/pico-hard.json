@@ -4331,7 +4331,7 @@
 		"gfVersion": "gf",
 		"events": [],
 		"allowBFskin": true,
-		"player3": "gfCar",
+		"player3": "gf-car",
 		"allowGFskin": true,
 		"song": "Pico",
 		"allowPet": true,
