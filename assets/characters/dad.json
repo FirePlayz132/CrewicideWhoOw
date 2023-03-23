@@ -1,123 +1,70 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-9,
-				10
-			],
 			"loop": false,
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
-		},
-		{
 			"offsets": [
-				0,
-				-30
-			],
-			"loop": false,
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
+				160,
 				0
 			],
-			"loop": false,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Dad idle dance",
+			"fps": 12,
+			"name": "Dave Idle",
 			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				0
+				159,
+				3
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				12
-			],
-			"name": "Dad idle dance"
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "Dave Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-9,
-				10
+				156,
+				1
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			],
-			"name": "Dad Sing Note LEFT"
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "Dave Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				27
+				160,
+				5
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			"anim": "singUP",
+			"fps": 12,
+			"name": "Dave Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-6,
-				50
+				163,
+				1
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "Dave Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				159,
+				-3
 			],
-			"name": "Dad Sing Note UP"
+			"anim": "die",
+			"fps": 12,
+			"name": "Dave Death",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -129,14 +76,14 @@
 	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		102,
-		206
+		55,
+		62,
+		146
 	],
 	"camera_position": [
-		0,
-		0
+		-300,
+		160
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 0.9
 }
