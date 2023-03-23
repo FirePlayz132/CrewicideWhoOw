@@ -1,122 +1,78 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-40,
+				-230
 			],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "Pico Idle Dance"
+			"name": "blue idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				65,
-				9
+				-45,
+				-221
 			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "Pico Note Right0"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				-68,
-				-7
-			],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Pico NOTE LEFT0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-60,
-				41
-			],
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "Pico NOTE LEFT miss"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				62,
-				64
-			],
-			"fps": 24,
-			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "Pico Note Right Miss"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-29,
-				27
-			],
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "pico Up note0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				200,
-				-70
-			],
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "Pico Down Note0"
+			"name": "blue down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				210,
-				-28
+				64,
+				-206
 			],
+			"loop": false,
 			"fps": 24,
-			"anim": "singDOWNmiss",
+			"anim": "singUP",
 			"indices": [],
-			"name": "Pico Down Note MISS"
+			"name": "blue up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-19,
-				67
+				-102,
+				-235
 			],
+			"loop": false,
 			"fps": 24,
-			"anim": "singUPmiss",
+			"anim": "singRIGHT",
 			"indices": [],
-			"name": "pico Up note miss"
+			"name": "blue left"
+		},
+		{
+			"offsets": [
+				75,
+				-238
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "blue right"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Pico_FNF_assetss",
 	"position": [
 		0,
-		300
+		110
 	],
 	"healthicon": "pico",
 	"flip_x": true,
 	"healthbar_colors": [
-		183,
-		216,
-		85
+		102,
+		102,
+		255
 	],
 	"camera_position": [
-		0,
-		0
+		-130,
+		290
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.1,
 	"scale": 1
 }
