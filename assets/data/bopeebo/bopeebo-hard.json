@@ -7068,9 +7068,9 @@
 					[
 						154800,
 						-1,
-						"Dave AUGH",
-						"",
-						""
+						"Change Character",
+						"1",
+						"gf-car"
 					]
 				],
 				"typeOfSection": 0,
@@ -8361,6 +8361,24 @@
 				"bpm": 200,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"altAnim": false
+			},
+			{
+				"lengthInSteps": 16,
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"altAnim": false
 			}
 		],
 		"player3": "gf-car",
