@@ -1,78 +1,130 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				-218,
-				-280
+				17,
+				-302
 			],
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "idle spirit_"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				-200,
-				-280
-			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "left_"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				170,
-				110
-			],
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "spirit down_"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-220,
-				-280
-			],
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "right_"
+			"name": "hit right"
+		},
+		{
+			"offsets": [
+				55,
+				-331
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "hit down"
+		},
+		{
+			"offsets": [
+				40,
+				-212
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "hit left"
+		},
+		{
+			"offsets": [
+				24,
+				-195
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "hit up"
+		},
+		{
+			"offsets": [
+				17,
+				-302
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				2
+			],
+			"name": "hit right"
+		},
+		{
+			"offsets": [
+				55,
+				-331
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [
+				2
+			],
+			"name": "hit down"
+		},
+		{
+			"offsets": [
+				40,
+				-212
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [
+				2
+			],
+			"name": "hit left"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				24,
+				-195
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "hit up",
+			"indices": [
+				2
+			]
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-220,
-				-240
+				41,
+				-308
 			],
+			"anim": "idle",
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "up_"
+			"name": "hit idle",
+			"indices": []
 		}
 	],
-	"no_antialiasing": true,
+	"no_antialiasing": false,
 	"image": "characters/spirit",
 	"position": [
-		-150,
+		40,
 		100
 	],
-	"healthicon": "spirit",
-	"flip_x": false,
+	"healthicon": "face",
+	"flip_x": true,
 	"healthbar_colors": [
-		255,
-		60,
-		110
+		15,
+		204,
+		255
 	],
 	"camera_position": [
-		0,
-		0
+		80,
+		200
 	],
-	"sing_duration": 4,
-	"scale": 6
+	"sing_duration": 10,
+	"scale": 0.8
 }
